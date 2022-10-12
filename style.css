@@ -234,6 +234,15 @@ select{
     font-size: 40px;
 }
 
+.del-btn{
+    padding: 4px 10px;
+    background-color: #3775C1;
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+}
+
+
 @media screen and (max-width:515px) {
     .chart{
         width: 450px;

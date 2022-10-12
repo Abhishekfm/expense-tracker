@@ -89,6 +89,13 @@ const myChart = new Chart(ctx, config);
 let trans_btn = document.querySelector(".add-transaction");
 let no_of_transaction = 0;
 let my_price = 0;
+let del_btn = document.querySelector(".del-btn");
+
+
+del_btn.addEventListener("click", ()=>{
+    localStorage.clear();
+    window.location.reload();
+})
 
 
 trans_btn.addEventListener('click',()=>{
